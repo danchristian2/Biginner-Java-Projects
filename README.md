@@ -1,39 +1,5 @@
-# Bible Verse USSD Simulator
+# This is the repo that is specifically for my beginner java programs.
+1)The first project is the automatic bible verses generator that i integrated with Africa is talking.You get the verse by dialing a USSD code
+2)The second is the caveExpolorer which randomly generate a cave-like maze, then uses graph search to find and draw the shortest path between its two farthest-apart points.
 
-A simple Java program that simulates a USSD session delivering Bible verses.
 
-## What it does
-
-Dial `*123#` in the console and navigate a menu to receive a Bible verse from
-one of several categories: Comfort, Strength, Love, or a Random Verse.
-
-## Running it
-
-Requires a JDK (not just a JRE).
-
-```bash
-javac BibleVerseUSSD.java
-java BibleVerseUSSD
-```
-
-Then at the prompt:
-
-```
-Dial: *008#
-```
-
-Follow the menu prompts (e.g. `1` then `1`) to get a verse.
-
-## Note on real USSD
-
-A real USSD dial from a phone can't be caught by a standalone Java program —
-it has to go through a telecom operator or a USSD gateway (e.g. Africa's
-Talking, Twilio). That gateway forwards each step of the session to your
-server as an HTTP request, and your server replies with:
-
-- `CON <text>` — continue the session, show another menu
-- `END <text>` — final message, session closes
-
-The `handleRequest(...)` method in `BibleVerseUSSD.java` already follows this
-format, so it can be dropped into a web endpoint (e.g. Spring Boot) and
-connected to a real gateway with minimal changes.
