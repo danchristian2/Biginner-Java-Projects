@@ -25,6 +25,8 @@ A scraper that pulls data from web pages and exports it as CSV, ready to open in
 - **Output:** a clean `.csv` file with the extracted data
 - **Use case:** quick, lightweight data collection without needing a database
 
+### 4. A Console Based Calculator
+
 ## 🛠 Requirements
 
 - Java 17+ (JDK)
