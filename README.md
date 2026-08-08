@@ -26,6 +26,7 @@ A scraper that pulls data from web pages and exports it as CSV, ready to open in
 - **Use case:** quick, lightweight data collection without needing a database
 
 ### 4. A Console Based Calculator
+A simple yet powerful project to demonstarate the use of conditional loops.
 
 ## 🛠 Requirements
 
