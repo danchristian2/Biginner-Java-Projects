@@ -28,6 +28,12 @@ A scraper that pulls data from web pages and exports it as CSV, ready to open in
 ### 4. A Console Based Calculator
 A simple yet powerful project to demonstarate the use of conditional loops.
 
+### 5.Guess the number
+A cli based program that randomly geusses the number within a range
+
+### 6. File Organiser
+In this program you can rename files,change file contents and many file manipulation things
+
 ## 🛠 Requirements
 
 - Java 17+ (JDK)
